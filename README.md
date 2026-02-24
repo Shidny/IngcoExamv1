@@ -26,18 +26,16 @@ This README provides an overview of the architecture and main elements related t
 - **Usage:** Use Vue for dynamic interfaces, single-file components, and state management.
 
 ## 5. Components
-- **Purpose:** Modular, reusable UI elements.
-- **Location:**
   - Astro: `src/html/components/`
   - SCSS: `src/scss/parts/`, `src/scss/pages/`
   - JS/TS: `src/ts/`, `src/utils/`
-- **Usage:** Build widgets, layouts, and interactive features.
 
+## 6. Inertia.js Integration
+- **Purpose:** Provides a modern approach to building single-page apps using classic server-side frameworks.
+- **Typical Location:** (Add `src/inertia/` or relevant folder if integrating Inertia.js)
+- **Usage:** Bridges backend and frontend, allowing seamless page transitions and state management without full page reloads. Useful for projects combining Vue, React, or Svelte with server-side routing.
 ## Recommendations
 - Add folders for `models`, `controllers`, and `vue` if you plan to expand backend or Vue.js features.
-- Use Astro components for static and server-rendered UI.
-- Organize SCSS and JS/TS files for maintainability.
-
 ## Additional Resources
 - For build instructions, see `README.md`.
 - For component usage, refer to inline comments and documentation in each module.
